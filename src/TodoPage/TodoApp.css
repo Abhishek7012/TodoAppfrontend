@@ -1,0 +1,54 @@
+/* TodoApp.css */
+
+.todo-app {
+  max-width: 600px; /* Increased max-width for a wider container */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Increased border-radius for a rounded appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.editing {
+  background-color: #d4edda; 
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.btn-success {
+  margin-left: 10px;
+}
+
+.card.editing {
+  border-color: #28a745;
+  background-color: #d4edda;
+}
+
+.card.editing input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card.editing p {
+  display: none;
+}
+
+.card.editing button {
+  margin-top: 10px;
+}
+
+/* Add more styles as needed */

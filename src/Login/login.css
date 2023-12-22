@@ -1,0 +1,72 @@
+/* login.css */
+
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #081420;
+
+  }
+  
+  .custom-card {
+    background-color: #081420;
+
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .login-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+    color: black;
+
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* color: white; */
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .sign-up-link {
+    text-align: center;
+    color: white;
+
+  }
+  
+  .sign-up-link span {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  

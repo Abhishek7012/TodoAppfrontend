@@ -1,0 +1,23 @@
+.nav {
+    background-color: #333339;
+    color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav__signup a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 2px solid #61dafb;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav__signup a:hover {
+    background-color: #61dafb;
+    color: #20232a;
+  }

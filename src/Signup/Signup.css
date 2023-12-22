@@ -1,0 +1,35 @@
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .login-body__form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-body__input {
+    margin-bottom: 16px;
+  }
+  
+  .login-body__submit-btn {
+    width: 100%;
+  }
+  
+  .input-label {
+    display: block;
+    margin-bottom: 5px;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+  }  
+  .input-field:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
